@@ -1,0 +1,44 @@
+main {
+    padding: 0 50px;
+    margin: auto;
+}
+.container {
+    max-width: 12000px;
+}
+nav {
+    position: relative;
+    overflow: hidden;
+    max-height: 3rem;
+    background-color: aquamarine;
+}
+
+.horizontal {
+    display: inline-block;
+    padding: 20px;
+    font-size: 20px;
+    width: fit-content;
+}
+.fluid {
+    padding: 20px;
+    font-size: 20px;
+    width: fit-content;
+    height: auto;
+    display: block;
+    margin-left: auto;
+}
+
+.pink {
+    background-color: pink;
+}
+
+.hide {
+    visibility: hidden;
+}
+.menu {
+    position: absolute;
+    top: 0;
+    right: 5%;
+    font-size: x-large;
+    font-weight: bold;
+    cursor: pointer;
+}
